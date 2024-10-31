@@ -33,12 +33,22 @@
 2. **Install dependencies**  
    ```bash
    cd neargpt-ai-dev-tools
+   cd front
+   npm install
+   cd ai-model
    npm install
    ```
 
 3. **Run the application**  
    ```bash
+   cd ai-model
    npm start
+  
+   cd front
+   npm run dev
+
+   cd contract
+   cargo near deploy 
    ```
 
 ## Contributing
@@ -56,5 +66,3 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 This project is licensed under the MIT License.
 
 --- 
-
-This template covers the main sections typically expected in a GitHub README. Let me know if you'd like more sections or customization!
