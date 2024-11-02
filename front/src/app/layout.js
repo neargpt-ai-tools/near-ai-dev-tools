@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body>
         <NearContext.Provider value={{ wallet, signedAccountId }}>
           <Navigation/>
-x          {children}
+          {children}
         </NearContext.Provider>
       </body>
     </html>
