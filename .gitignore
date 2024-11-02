@@ -1,0 +1,5 @@
+# Node.js
+front/node_modules/
+ai-model/node_modules/
+
+ai-model/.env
